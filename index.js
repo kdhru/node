@@ -38,10 +38,14 @@ const fs = require('fs');
 //     }
 // });
 
-fs.appendFile('read.txt',` abes college is good`,(err)=>{
-    if(err){
-        console.log(err);
-    }else{
-        console.log('Data appended successfully');
-    }
-});
+// fs.appendFile('read.txt',` abes college is good`,(err)=>{
+//     if(err){
+//         console.log(err);
+//     }else{
+//         console.log('Data appended successfully');
+//     }
+// });
+
+// fs.copyFile('read.txt','readb.txt',()=>{});
+
+fs.unlinkSync('readb.txt');
