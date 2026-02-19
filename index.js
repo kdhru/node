@@ -48,4 +48,4 @@ const fs = require('fs');
 
 // fs.copyFile('read.txt','readb.txt',()=>{});
 
-fs.unlinkSync('readb.txt');
+// fs.unlink('read.txt',()=>{});
