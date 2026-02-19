@@ -49,3 +49,13 @@ const fs = require('fs');
 // fs.copyFile('read.txt','readb.txt',()=>{});
 
 // fs.unlink('read.txt',()=>{});
+
+const os=require('os');
+console.log("platform: ",os.platform());
+console.log("username: ",os.userInfo());
+console.log("CPU architecture: ",os.arch());
+console.log(" free memory: ",os.freemem());
+console.log("total memory: ",os.totalmem());
+console.log("rebooting time: ",os.uptime());
+console.log("home directory: ",os.homedir());
+console.log("host name: ",os.hostname());
